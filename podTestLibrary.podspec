@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nemo' => '343191021@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/podTestLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:iJackyVon/podTestLibrary.git', :tag => "0.1.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'podTestLibrary/Classes/**/*'
   
